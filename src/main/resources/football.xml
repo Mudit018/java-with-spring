@@ -10,8 +10,10 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="footballers" class="com.practice.Footballers">
-        <constructor-arg ref="player1" index="0"/>
-        <constructor-arg ref="player2" index="1"/>
+<!--        <constructor-arg ref="player1" index="0"/>-->
+<!--        <constructor-arg ref="player2" index="1"/>-->
+        <property name="player1" ref="player1"/>
+        <property name="player2" ref="player2"/>
     </bean>
 
     <bean id="player1" class="com.practice.Player1"/>
