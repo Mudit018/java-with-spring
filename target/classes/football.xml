@@ -14,10 +14,6 @@
         <constructor-arg ref="player2" index="1"/>
     </bean>
 
-    <bean id="player1" class="com.practice.Player1">
-    </bean>
-
-    <bean id="player2" class="com.practice.Player2">
-    </bean>
-
+    <bean id="player1" class="com.practice.Player1"/>
+    <bean id="player2" class="com.practice.Player2"/>
 </beans>
