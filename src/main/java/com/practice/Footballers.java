@@ -30,7 +30,7 @@ public class Footballers {
 
     @Autowired
     public void setPlayer2(Player2 player2) {
-        this.player2 = player2;
+        
     }
 
     public void playerPlay() {
