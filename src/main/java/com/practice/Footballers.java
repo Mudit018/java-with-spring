@@ -1,5 +1,9 @@
 package com.practice;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Footballers {
 
     Player1 player1;
@@ -15,6 +19,7 @@ public class Footballers {
         return player1;
     }
 
+    @Autowired
     public void setPlayer1(Player1 player1) {
         this.player1 = player1;
     }
@@ -23,6 +28,7 @@ public class Footballers {
         return player2;
     }
 
+    @Autowired
     public void setPlayer2(Player2 player2) {
         this.player2 = player2;
     }
